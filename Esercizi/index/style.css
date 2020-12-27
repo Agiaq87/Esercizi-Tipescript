@@ -1,13 +1,17 @@
 table {
     margin: 2em;
-    background-color: #eeeeee;
+    background-color: #d9dde9;
 } 
 td {
-    border-left: 1px solid #a5a5a5; 
+    border-left: 1px solid #b6b6b6; 
     font-weight: bold;
     padding: 0.25em;
 }
 a {
     text-decoration: none;
     font-weight: normal;
+}
+button {
+    font-weight: bold;
+    background-color: rgb(179, 179, 180);
 }
