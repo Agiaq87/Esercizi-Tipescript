@@ -20,12 +20,14 @@ function mul(a: number, b: number): number {
     return a*b;
 }
 
+// Nessun controllo sul dividendo
 function div(a: number, b: number): number {
     return a/b;
 }
 
 evConsole.addEventListener("click", () => {
     console.log('I valori immessi sono ' + one.value + ' e ' + two.value);
+    // Il + serve a valutare il valore come number
     console.log('Addizione: ', add(+one.value, +two.value));
     console.log('Sottrazione: ', sub(+one.value, +two.value));
     console.log('Moltiplicazione: ', mul(+one.value, +two.value));
