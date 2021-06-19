@@ -77,3 +77,8 @@ button {
     font-weight: bold;
     background-color: rgb(179, 179, 180);
 }
+
+.typelogo {
+  width: 20px;
+	background-color: #54818f;
+}
